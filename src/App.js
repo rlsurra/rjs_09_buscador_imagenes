@@ -1,10 +1,14 @@
-import React, {useState,Fragment} from 'react';
+import React, {useState} from 'react';
+import Formulario from './components/Formulario';
 
 function App() {
   return (
-    <Fragment>
-      
-    </Fragment>
+      <div className="container">
+        <div className="jumbotron">
+          <p className="lead text-center">Buscador de Imagenes</p>
+          <Formulario/>
+        </div>
+      </div>
   );
 }
 
